@@ -1,0 +1,1 @@
+var e=`/assets/banner-cidade-B4jbzToA.jpg`;export{e as t};

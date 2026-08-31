@@ -1,0 +1,10 @@
+REVOKE EXECUTE ON FUNCTION public.on_challenge_completed() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.on_report_challenge() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.on_profile_challenge() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.on_tip_read() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.on_report_created() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.on_report_updated() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.handle_new_user() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.set_report_protocol() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.set_updated_at() FROM anon, authenticated, public;
+REVOKE EXECUTE ON FUNCTION public.evaluate_achievements(uuid) FROM anon, authenticated, public;

@@ -1,0 +1,1 @@
+import{r as e,t}from"./jsx-runtime-BkSabwWG.js";import{t as n}from"./react-DHmoMYoq.js";var r=e(n(),1),i={ambient:!1,ui:!0,volume:.4};t();var a=(0,r.createContext)({prefs:i,update:()=>{},play:()=>{}});function o(){return(0,r.useContext)(a)}export{o as t};
